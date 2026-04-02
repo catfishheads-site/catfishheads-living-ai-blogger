@@ -1,7 +1,7 @@
-baseURL = "https://yourdomain.com/"
+baseURL = "https://www.catfishheads.site/"
 title = "Spirituality and Positivity Blog"
 description = "A blog dedicated to spirituality, positivity, and personal growth."
-author = "Your Name"
+author = "Joey Donner"
 logo = "/logo.png"
 menu = "main"
 
@@ -9,12 +9,12 @@ languageCode = "en-US"
 
 theme = "your-theme"
 
-generate = ["index.html", "404.html"]
+generate = ["index.html", "404.html", "posts", "pages"]
 
 [params]
   subtitle = "Inspiring content for a better life"
   keywords = ["spirituality", "positivity", "growth", "happiness"]
-  maxItems = 10
+  maxItems = 30
 
 [outputs]
   home = ["HTML"]
